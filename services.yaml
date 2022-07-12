@@ -1,0 +1,8 @@
+---
+
+- config-service
+- openvpn-processor
+- vpnbeast-service
+- email-service
+- encryption-service
+- vpnbeast-mysql

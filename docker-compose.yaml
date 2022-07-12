@@ -1,0 +1,14 @@
+---
+
+version: '3'
+
+services:
+  vpnbeast-mysql:
+    image: vpnbeast/vpnbeast-mysql:latest 
+    restart: on-failure
+    ports:
+      - "3306:3306"
+
+networks:
+  default:
+    driver: bridge
